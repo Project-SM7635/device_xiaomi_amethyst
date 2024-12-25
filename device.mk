@@ -279,6 +279,9 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayAmethyst \
     WifiOverlayAmethyst
 
+PRODUCT_PACKAGES += \
+    NcmTetheringOverlay
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
