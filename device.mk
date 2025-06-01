@@ -149,6 +149,10 @@ PRODUCT_PACKAGES += \
 # Dolby Audio Processing
 $(call inherit-product, packages/apps/LunarisDolby/dolby.mk)
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Euicc
 PRODUCT_PACKAGES += \
     XiaomiEuicc
