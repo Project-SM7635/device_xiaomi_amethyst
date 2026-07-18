@@ -169,6 +169,7 @@ vendor.gatekeeper.is_security_level_spu=0
 # Media
 debug.stagefright.c2inputsurface=-1
 vendor.media.omx=0
+debug.sdm.support_writeback=0
 
 # Media configs
 ro.media.xml_variant.profiles=_volcano_amethyst_v0
