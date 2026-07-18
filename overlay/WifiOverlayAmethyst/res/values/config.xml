@@ -8,10 +8,10 @@
          Note: This config is replacing the config_wifi_dual_band_support
          since more bands may now be supported (such as 6GHz), the naming dual_band
          is no longer indicative, and a separate config now exists for each band -->
-    <bool name="config_wifi5ghzSupport" translatable="false">true</bool>
+    <bool name="config_wifi5ghzSupport">true</bool>
 
     <!-- boolean indicating whether the WiFi chipset has 6GHz band support -->
-    <bool name="config_wifi6ghzSupport" translatable="false">true</bool>
+    <bool name="config_wifi6ghzSupport">true</bool>
 
     <!-- Boolean indicating whether IP address allocation in EAPOL is enabled by default in Wi-Fi.
          The GO fixed IP address is set to 192.168.49.1 and subnet mask to 255.255.255.0 -->
