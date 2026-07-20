@@ -357,18 +357,12 @@ blob_fixups: blob_fixups_user_type = {
         'odm/lib64/hw/displayfeature.default.so',
         'vendor/bin/hw/vendor.qti.camera.provider-service_64',
         'vendor/bin/hw/vendor.qti.hardware.display.composer-service',
-        'vendor/bin/poweropt-service',
-        'vendor/lib64/libaodoptfeature.so',
-        'vendor/lib64/libapengine.so',
         'vendor/lib64/libaudiocloudctrl.so',
         'vendor/lib64/libdpps.so',
         'vendor/lib64/liblearningmodule.so',
         'vendor/lib64/libmicamera_aidl_provider.so',
-        'vendor/lib64/libpowercore.so',
         'vendor/lib64/libpsmoptfeature.so',
         'vendor/lib64/libsnapdragoncolor-manager.so',
-        'vendor/lib64/libstandbyfeature.so',
-        'vendor/lib64/libvideooptfeature.so',
     ): blob_fixup()
         .replace_needed(
             'libtinyxml2.so',
