@@ -360,6 +360,12 @@ on boot
     chown system system /sys/class/mi_display/disp-DSI-0/max_brightness_clone
     chmod 0664 /sys/class/mi_display/disp-DSI-0/max_brightness_clone
 
+    # Add permission to write charging
+    chown system system /sys/class/power_supply/battery/charge_control_limit
+    chmod 0664 /sys/class/power_supply/battery/charge_control_limit
+    chown system system /sys/class/power_supply/battery/constant_charge_current
+    chmod 0664 /sys/class/power_supply/battery/constant_charge_current  
+
     # Display feature sysfs node for panel1
     chown system system /sys/class/mi_display/disp-DSI-1/brightness_clone
     chmod 0664 /sys/class/mi_display/disp-DSI-1/brightness_clone

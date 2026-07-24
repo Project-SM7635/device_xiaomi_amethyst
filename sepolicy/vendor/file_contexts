@@ -117,6 +117,9 @@
 /sys/devices/virtual/thermal/thermal_message/torch_real_level u:object_r:sys_thermal_torch_real_level:s0
 /sys/devices(/platform)?/soc/[a-f0-9]+.qcom,vidc/sku_version u:object_r:vendor_sysfs_sku:s0
 
+# Charging
+/vendor/bin/charging u:object_r:charging_exec:s0
+
 # Touch
 /(odm|vendor/odm|vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hw\.touchfeature-service u:object_r:hal_touchfeature_xiaomi_default_exec:s0
 /(odm|vendor/odm|vendor|system/vendor)/bin/touch_report u:object_r:touchreport_exec:s0
