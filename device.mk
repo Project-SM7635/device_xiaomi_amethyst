@@ -146,6 +146,9 @@ $(foreach display_id, 4630946480857061762 4630946958764744578 463094703339071091
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
+# Dolby Audio Processing
+$(call inherit-product, packages/apps/LunarisDolby/dolby.mk)
+
 # Euicc
 PRODUCT_PACKAGES += \
     XiaomiEuicc
